@@ -1,7 +1,5 @@
 -- 1280. Students and Examinations --
 
-DROP TABLE Students
-
 CREATE TABLE Students
 (
     student_id INT,
@@ -14,8 +12,6 @@ INSERT INTO Students VALUES
 (13, 'John'),
 (6, 'Alex')
 
-DROP TABLE Subjects
-
 CREATE TABLE Subjects
 (
     subject_name VARCHAR(20)
@@ -25,8 +21,6 @@ INSERT INTO Subjects VALUES
 ('Math'),
 ('Physics'),
 ('Programming')
-
-DROP TABLE Examinations
 
 CREATE TABLE Examinations
 (
